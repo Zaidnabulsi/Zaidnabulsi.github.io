@@ -16,9 +16,16 @@
   <link href="css/css/simpletextrotator.css" rel="stylesheet" type="text/css">
   <link href="css/css/theme.css" rel="stylesheet" type="text/css">
   <link href="css/css/main.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/png" href="lib/img/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="lib/img/favicon-16x16.png" sizes="16x16" />
   <script src="js/modernizr.custom.js"></script>
 </head>
 <body>
+
+  <div id='popup' class="popup">
+    <div id="popuptext" class="text">Please enable Javascript to continue.</div>
+  </div>
+
 
   <!-- Header. Profile picture, name, tagline, resume download, and navbar. -->
   <header id="intro">
@@ -35,33 +42,36 @@
         <div class="collapse navbar-collapse" id="myNavigation">
           <ul class="nav navbar-nav navbar-right animated flipInX">
             <li><a href="#about" class="scroll">About Me</a></li>
-            <li><a href="#expertise" class="scroll">Expertise</a></li>
+            <li><a href="#education" class="scroll">Education</a></li>
+            <li><a href="#research" class="scroll">Research</a></li>
+            <li><a href="#expertise" class="scroll">Experience</a></li>
             <li><a href="#projects" class="scroll">Side Projects</a></li>
+            <li><a href="#contact" class="scroll">Contact Info</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
     <div class="jumbotron">
-      <img src="lib/img/PRO.JPG" class="img-responsive" alt="" />
-      <h2 class="jumbo-name wow shake">Zaid Nabulsi</h2>
-      <p class="tagline"><span class="rotate">Software Engineer, Computer Scientist, Hand Model, Penguin Lover, Researcher</span></p>
-      <a class="resume" href="zaidnabulsi.github.io">Resume</a>
+      <h2 class="jumbo-name wow shake">Hi, I'm Zaid</h2>
+      <p class="tagline"><span class="rotate">Software Engineer, Entrepreneur, Data Scientist, Machine Learning Engineer, Researcher</span></p>
     </div>
   </header>
+
 
   <!-- About. Short description of yourself, profile pic, experience -->
   <div class="section" id="about">
     <div class="container">
       <div class="row">
         <div class="col-sm-3">
-          <img src="lib/img/DSC_0056.JPG" class="image-bordered img-responsive wow slideInLeft" alt="" />
+          <img src="lib/img/PRO.JPG" class="image-bordered img-responsive wow slideInLeft" alt="" />
         </div>
 
         <div class="col-sm-9">
           <h3 class="name wow slideInRight">Zaid Nabulsi</h3>
-          <p class="description wow slideInRight">Computer scientist trying to change the world!</p>
-          <p class="description wow slideInRight">Hi! I'm currently a first-year undergraduate at Stanford University pursuing a degree in Computer Science. I love what I do, but if I'm not programming my heart out or tinkering with microcontrollers, you can find me on soccer fields or surfing the waters in Half Moon Bay. From meeting someone new to trying out a new skill or perfecting an old one, I have been and always will be an avid proponent of consistent learning everyday.</p>
+          <p class="description wow slideInRight">Hi! I am a computer scientist and machine learning engineer! I'm currently a computer science student at Stanford
+            University, with a strong interest in aritifical intelligence and machine learning. Please check 
+            out my portfolio, and feel free to reach out to me!</p>
         </div>
       </div>
     </div>
@@ -83,13 +93,159 @@
   </div> 
 
 
+
+
+  <div class="section" id="education">
+
+    <h2 class="title">Education &amp; Coursework</h2>
+    <p class="subtitleEducation">Stanford University</p>
+
+    <p class="subtext">Expected to graduate in June 2020 with a BS and MS in Computer Science, with specializations in aritifial intelligence and computational biology. Current GPA: 4.0</p>
+
+        <div class="sectitle">Artificial Intelligence &amp; Machine Learning</div>
+      
+        <div class="col2 left">
+          <div class="bullet"><span class="emphasis">CS 221 </span> Artificial Intelligence: Principles & Techniques<div class="explainer">Dive into the world of aritifical intelligence, including 
+          topic such as Markov decision processes and constraint satisfaction.</div></div>
+          <div class="bullet"><span class="emphasis">CS 229 </span> Machine Learning<div class="explainer">Dive 
+          into the world of machine learning, covering a wide range of topics including SVMs, GLMs, ICA/PCA, 
+          and reinforcement learning.</div></div>
+          <div class="bullet"><span class="emphasis">CS 236 </span> Deep Generative Models<div class="explainer">dive into the world of generative models; including the probabilistic foundations and learning algorithms for deep generative models, including Variational Autoencoders (VAE), Generative Adversarial Networks (GAN), and flow models.</div></div>
+          <div class="bullet"><span class="emphasis">CS 124 </span>From Languages to Information<div class="explainer">A practical and applied course focused on extracting meaning, information, and structure from human language text, speech, web pages, social networks.</div></div>
+          <div class="bullet"><span class="emphasis">CS 274 </span> Algorithms and Aritificial Intelligence in Computational Biology<div class="explainer">Understanding and applying artificial intelligence to important sectors in computational biology.</div></div>
+        </div>
+        
+        <div class="col2 right">
+          <div class="bullet"><span class="emphasis">CS 230 </span>Deep Learning<div class="explainer">A practical course useful for industry, focusing on the details of numerous different types of deep neural networks, their architectures, and their applications</div></div>
+          <div class="bullet"><span class="emphasis">CS 231N </span>Convolutional Neural Networks for Visual Recognition<div class="explainer">The details of neural net architecture, with a heavy focus on image classification and convolutional neural networks.</div></div>
+          <div class="bullet"><span class="emphasis">CS 224U </span> Natural Language Understanding<div class="explainer">A project-oriented course focused on the task of teaching machines to understand and make sense of human language.</div></div>
+          <div class="bullet"><span class="emphasis">CS 199/Med 199 </span>Undergraduate Research<div class="explainer">Independent research for qualified students to undertake investigations sponsored by faculty. I worked in an artifical intelligence lab in the Stanford Medical School.</div></div>
+        </div>
+        
+        <div class="clear"></div>
+
+        <div class="sectitle">Algorithms &amp; Systems</div>
+        
+        <div class="col2 left">
+          <div class="bullet"><span class="emphasis">CS 106 Series </span> Programming Abstractions<div class="explainer">Deep dive into abstraction and software engineering principles ofmodularity. Focus on data structures and algorithms in C++</div></div>
+          <div class="bullet"><span class="emphasis">CS 107 </span> Computer Organization &amp; Systems<div class="explainer">Fundamental concepts of computer systems, covering low-level programming, working from C down to the microprocessor.</div></div>
+          <div class="bullet"><span class="emphasis">CS 193X </span> Full Stack Applications<div class="explainer">Implementing full-stack web applications, with a focus on both client-side and server-side systems.</div></div>
+        </div>
+        
+        <div class="col2 right">
+          <div class="bullet"><span class="emphasis">CS 110 </span>Principles of Computer Systems<div class="explainer">Principles and practice of engineering of computer software and hardware systems. Covers techniques for controlling complexity and strong modularity using client-server design. Also covers multiprocessing, multithreading, networking, virutal memory, security and encryption, and MapReduce</div></div>
+          <div class="bullet"><span class="emphasis">CS 161 </span>Design and Analysis of Algorithms<div class="explainer">Comprehensive course covering algorithm design techniques, and in-depth coverage of many exisiting and efficient algorithms. Emphasis on worst/average case analysis and recurrences/asymptotics</div></div>
+        </div>
+        
+        <div class="clear"></div>
+
+        <div class="sectitle">Mathematics</div>
+        
+        <div class="col2 left">
+          <div class="bullet"><span class="emphasis">MATH 51 </span> Linear Algebra &amp; Differential Calculus of Several Variables<div class="explainer">Geometry and algebra of vectors, matrices and linear transformations, eigenvalues of symmetric matrices, vector-valued functions and functions of several variables, partial derivatives and gradients, derivative as a matrix, chain rule in several variables, critical points and Hessian, least-squares, optimizations, and Lagrange multipliers.</div></div>
+          <div class="bullet"><span class="emphasis">CS 109 </span>Probability for Computer Scientists<div class="explainer">Basics of probability and the applications of probability in computer science. Focus on building machine learning systems, and the use of probability to analyze algorithms.</div></div>
+        </div>
+        
+        <div class="col2 right">
+          <div class="bullet"><span class="emphasis">MATH 104 </span>Applied Matrix Theory<div class="explainer">Applications of linear algebra in science, engineering, and machine learning. Covers orthogonality, projections, spectral theory for symmetric matrices, the singular value decomposition, the QR decomposition, least-squares, the condition number of a matrix, and algorithms for solving linear systems.</div></div>
+          <div class="bullet"><span class="emphasis">CS 103 </span>Mathematical Foundations of Computing<div class="explainer">Proof-based course that covers propositional predicate logic, induction, grammars, automata, Turing machines, and NP-completeness.</div></div>
+        </div>
+        
+        <div class="clear"></div>
+
+
+         <div class="sectitle">Entrepreneurial</div>
+        
+        <div class="col2 left">
+          <div class="bullet"><span class="emphasis">BIOE 70Q </span>Medical Device Innovation<div class="explainer">The application of design-thinking to the creation of healthcare technologies. Focus on crafting unique solutions to shape healthcare innovation through the use of technology.</div></div>
+          <div class="bullet"><span class="emphasis">URBANST 131 </span>Social Innovation and the Social Entrepreneur<div class="explainer">Introduces perspectives and endeavors of entrepreneurs and thought leaders who address social needs in the U.S. and internationally through private, for-profit and nonprofit organizations or public institutions.</div></div>
+        </div>
+        
+        <div class="col2 right">
+           <div class="bullet"><span class="emphasis">ENGR 280 </span>From Play To Innovation<div class="explainer">Project-based course that is focused on the innovtion process itself, and enhancing it through playfulness. Use design-thinking to promote innovation in the corporate world, through working with real-world partners on design projects with widespread application.</div></div>
+        </div>
+        
+        <div class="clear"></div>
+
+      </div>
+
+
+
+
+        <!-- Inbetween: Using quotes to de-clutter the webpage -->
+  <div class="section quote-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <blockquote class="blockquote-reverse">
+            <p><i class="fa fa-quote-left wow swing"></i> Computer science is no more about computers than astronomy is about telescopes.<i class="fa fa-quote-right wow swing"></i></p>
+            <p class="quoter"> - Edsger Dijkstra</p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+
+
+
+   <div class="section" id="research">
+
+    <h2 class="title">Research</h2>
+    <br>
+
+    <p class="subtitleEducation">Deep Learning Researcher<span class='date' style="float: right;">Feb 2018 - Present
+
+    <p class="subtext">Conducted research with the <a href="https://rubinlab.stanford.edu/">Laboratory of Quantitative Imaging</a> in the Stanford School of Medicine. The lab uses computational methods for image classification and segmentation, with a focus on radioloy images. My main work in this lab is to develop and apply state-of-the-art computer vision techniques to biomedical images to enhance image segmentation. The focus is on developing new and innovative machine learning and computer vision algorithms, and apply them.</p>
+
+
+    <br><br>
+
+    <p class="subtitleEducation">Stanford School of Medicine Researcher<span class='date' style="float: right;">Mar 2017 - Feb 2018
+
+    <p class="subtext">Worked directly with a <a href="http://med.stanford.edu/labs/ash_alizadeh/">Stanford School of Medicine Labratory</a>. I worked directly with Dr. Ash Alizadeh and Dr. David Kurtz. The lab is focused on using non-invasive biologial biomarkers such as cell-free DNA (cfDNA), to detect cancer. I developed an innovative deep learning model that classifies a non-reference base as either a biological and possibly cancerous mutation, or as a human-introduced error, brought about by errors by the sequencer, or through other environmnetal exposures, such as oxidation of the base over time. This state-of-the-art model is currently undergoing comprehensive testing, but will soon be used in clinical trials.</p>
+    <br><br><br>
+
+
+    <p class="subtitleEducation">THIS SECTION IS STILL UNDER DEVELOPMENT</p><br>
+
+
+
+
+
+
+
+  <div class="section quote-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <blockquote class="blockquote-reverse">
+            <p><i class="fa fa-quote-left wow swing"></i> Computer science is no more about computers than astronomy is about telescopes.<i class="fa fa-quote-right wow swing"></i></p>
+            <p class="quoter"> - Edsger Dijkstra</p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- Expertise: Displays work experience -->
   <div class="section" id="expertise">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="title">Expertise and Experience</h2>
-          <p class="subtitle">I love making things! I look to continue diversifying my opportunities and interests as I grow as a student and engineer.</p>
+          <h2 class="title">Work Experience</h2>
         </div>
       </div>
 
@@ -98,15 +254,31 @@
       <div class="experiences">
         <div class="row">
 
+          <div class="experience">
+              <div class="col-sm-4">
+                <h2 class="wow lightSpeedIn">Google Brain</h2>
+              </div>
+              <div class="col-sm-8">
+                <p>Software Engineering/Machine Learning Intern at Google (summer of 2018)</p>
+                <p>Worked with the Brain team to improve the quality of Tensorflow Extended (TFX).</p>
+                <p>Collaborated with the Youtube team to develop a deep learning classifier for live chats.</p>
+                <p>Technologies used: Python, TensorFlow, C++</p>
+              </div>
+            </div>
+
+
             <div class="experience">
               <div class="col-sm-4">
-                <h2 class="wow lightSpeedIn">Google</h2>
+                <h2 class="wow lightSpeedIn">Google (App Maker)</h2>
               </div>
               <div class="col-sm-8">
                 <p>Software Engineering Intern at Google (summer of 2017)</p>
                 <p>Worked on the App Maker Team to implement a brand new feature: Popups</p>
-                <p>Technologies used: Java, CSS, Javascript, XML, SQL</p>
+                <p>Technologies used: Java, RPCs, Protos, SQL</p>
                 <p>Recognized by the Director of Software Engineering for high quality work</p>
+                <a href='https://developers.google.com/appmaker/ui/popups#popups'>Documentation |</a>
+                <a href='https://www.youtube.com/watch?v=z0nZ-cwzrzE'>Video |</a>
+                <a href='https://www.youtube.com/watch?v=kMyTEFX56is'>Video</a>
               </div>
             </div>
 
@@ -119,7 +291,7 @@
                 <p>Conducted computational research with the Alizadeh Cancer Lab in Stanford Medical School</p>
                 <p>Advanced the lab's detection of circulating tumor DNA significantly by reducing error rate to (2 x 10^-5)%</p>
                 <p>Employed machine learning principles to distinguish between errors and mutations</p>
-                <p>Technologies used: Python, samtools</p>
+                <p>Technologies used: Python, TensorFlow</p>
               </div>
             </div>
           
@@ -165,20 +337,6 @@
             </div>
           </div>
         </div>
-
-        <div class="col-sm-6.5">
-          <div class="experience">
-            <div class="col-sm-4">
-              <h2 class="wow lightSpeedIn">SWURV Ambassador</h2>
-            </div>
-            <div class="col-sm-8">
-              <p>Work with a team of 9 other Stanford students to help a technology start-up gain traction</p>
-              <p>Market the SWURV Application throughout the campus and organizing events to spread the word</p>
-              <p>Diagnose bugs/problems with the application, suggest improvements and next steps for the start up</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div> 
 
@@ -200,36 +358,37 @@
 
   <!-- Projects: Using Tympanus grid package to display side-projects -->
   <div class="section" id="projects">
+    <h2 class="title">Projects</h2>
+    <br>
+
+    <p class="subtitleEducation">UNDER DEVELOPMENT<span class='date' style="float: right;">
+
+<!--    <p class="subtext">Conducted research with the <a href="https://rubinlab.stanford.edu/">Laboratory of Quantitative Imaging</a> in the Stanford School of Medicine. The lab uses computational methods for image classification and segmentation, with a focus on radioloy images. My main work in this lab is to develop and apply state-of-the-art computer vision techniques to biomedical images to enhance image segmentation. The focus is on developing new and innovative machine learning and computer vision algorithms, and apply them.</p> -->
+  </div> 
+
+    <!-- Inbetween: Using quotes to de-clutter the webpage -->
+  <div class="section quote-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <h2 class="title">Side Projects</h2>
-          <p class="subtitle">I enjoy working on outside projects in my free time. I am currently continuing my collaboration with Stanford Medical School in working with genomcis, as well as developing my own iOS application.</p>
-        </div>
-
-        <div class="col-md-12">
-          <ul id="og-grid" class="og-grid">
-            <li>
-              <a href="https://www.culturemesh.com/index.php" data-largesrc="lib/img/culturemesh.jpg" data-title="CultureMesh" data-description="CultureMesh is a social networking platform for the global movement of people, allowing people who have left their hometown/home country to find others from their home in their new location. CultureMesh is the official diaspora networking tool in the US for Kyrgyzstan and Indonesia, and eventually, India. Currently, we are working on enhancing the website (Python, HTML, CSS, Javascript), creating a Facebook Free Basics website, and eventually creating an Android App.">
-                <img class='proj' src="lib/img/thumbs/culturemesh.jpg" alt="img01"/>
-              </a>
-            </li>
-            <li>
-              <a href="http://zaidnabulsi.github.io" data-largesrc="lib/img/2.jpg" data-title="Variant Caller" data-description="In order to tie togetger my passion and knowledge in the biologoical and computer science fields, I built a customized and innovative variant caller. The variant caller has a special feature that calculates error rate, revealing numerous statsitical data
-              relevant to the genome. All the code was written in Python, using the pysam library. The variant caller reveals data such as where in the read errors are more likely to occur, leading to machine learning breakthroughs in my next project.">
-                <img class='proj' src="lib/img/thumbs/2.jpg" alt="img02"/>
-              </a>
-            </li>
-            <li>
-              <a href="http://zaidnabulsi.github.io" data-largesrc="lib/img/3.jpg" data-title="BAM file polisher" data-description="As part of my continuing research and experience in the bioinformatics field, I developd breakthrough software that polishes a BAM file, taking away errors that are due to sequencing, and not related to mutations. The software utilizes machine learning principles, and trains on a cohort of data to create a database. From the information in the database, the software proceeds to polish a BAM file, reducing the error rate by a factor of 10, and allowing more accurate analysis of the mutations. The project also led to more knowledge, of errors, leading to more questions and extensions that I continue to tackle and hope to share and possibly publish soon!">
-                <img class='proj' src="lib/img/thumbs/3.jpg" alt="img02"/>
-              </a>
-            </li>
-          </ul>
+        <div class="col-sm-6 col-sm-offset-3">
+          <blockquote class="blockquote-reverse">
+            <p><i class="fa fa-quote-left"></i> Disneyland will never be completed. It will continue to grow as long as there is imagination left in the world.</p>
+            <p class="quoter"> - Walt Disney</p>
+          </blockquote>
         </div>
       </div>
     </div>
   </div> 
+
+
+  <div class="section" id="contact">
+
+    <h2 class="title">Contact Info</h2>
+
+    <p class="subtitleContact">Mail: znabulsi [at] stanford [dot] edu</p>
+    <p class="subtitleContact">Mail: zaidnab [at] gmail [dot] com</p>
+    <p class="subtitleContact">Phone: (925) - 360 - 8625</p>
+  </div>
 
 
   <!-- Footer: Social links -->
@@ -245,7 +404,7 @@
              "><i class="fa fa-linkedin"></i></a></li>
           </ul>
 
-          <p>© Zaid Nabulsi 2016 All right reserved.</p>
+          <p>© Zaid Nabulsi 2018 All right reserved.</p>
         </div>
       </div>
     </div>
@@ -260,5 +419,24 @@
   <script src="js/wow.min.js"></script>
   <script src="js/jquery.simple-text-rotator.min.js"></script>
   <script src="js/main.js"></script>
+
+  <script type="text/javascript">
+
+
+    document.getElementById("popup").style.display = "none";
+
+    function checkWindowSize() {
+      if(document.body.offsetWidth < 600) {
+        document.getElementById("popuptext").style.fontSize = "15px";
+        document.getElementById("popuptext").innerHTML = "View on desktop or increase the screen width to continue.";
+        document.getElementById("popup").style.display = "block"; 
+      } else {
+        document.getElementById("popup").style.display = "none";
+      }
+    }
+
+    window.onresize = checkWindowSize;
+    checkWindowSize();
+  </script>
 </body>
 </html>

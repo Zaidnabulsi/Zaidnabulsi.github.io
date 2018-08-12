@@ -28,9 +28,6 @@ body > .container {
 }
 
 
-/************************/
-/* Provided CSS Styling */
-/************************/
 
 .section {
   padding-top: 50px;
@@ -53,7 +50,7 @@ body > .container {
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: white; 
 }
 
 .navbar-default .navbar-brand:hover,
@@ -67,8 +64,9 @@ body > .container {
 }
 
 .jumbotron .jumbo-name {
-  font-size: 80px;
-  color: white;
+  margin-top: 18vw;
+  font-size: 5vw;
+  color: #c3ccca;
 }
 
 .jumbotron a {
@@ -88,8 +86,8 @@ body > .container {
 }
 
 .jumbotron .tagline {
-  color: white;
-  font-size: 30px;
+  color: #49a6d1;
+  font-size:3vw;
 }
 
 .jumbotron img {
@@ -100,7 +98,6 @@ body > .container {
 
 .experience {
   margin-top: 20px;
-  border: 1px solid white;
   min-height: 120px;
   height: auto;
   padding: 10px 0;
@@ -108,16 +105,20 @@ body > .container {
 
 .name {
   font-size: 55px;
+  color: rgb(50, 50, 50);
 }
 
 .description {
   font-size: 22px;
+  color: rgb(75, 95, 75);
 }
 
 .title {
   display: block;
   font-size: 60px;
   text-align: center;
+  color: rgb(50, 50, 50);
+  
 }
 
 .subtitle {
@@ -125,6 +126,27 @@ body > .container {
   font-size: 22px;
   margin: 0 auto;
   width: 75%;
+}
+
+.subtitleEducation {
+  display: block;
+  font-size: 12px;
+  margin: 0 auto;
+  margin-left: 5vw;
+
+  font-family: 'Lato';
+  color: rgb(75, 95, 75);
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+
+.subtitleContact {
+  display: block;
+  font-size: 22px;
+  margin: 0 auto;
+  width: 55%;
 }
 
 .blockquote-reverse {
@@ -165,6 +187,7 @@ body > .container {
   color: #aaa;
   text-decoration: none;
 }
+
 
 
 /*********************************/
