@@ -53,8 +53,10 @@
     </nav>
 
     <div class="jumbotron">
-      <h2 class="jumbo-name wow shake">Hi, I'm Zaid</h2>
-      <p class="tagline"><span class="rotate">Software Engineer, Entrepreneur, Data Scientist, Machine Learning Engineer, Researcher</span></p>
+      <div class="jumbo_text">
+        <h2 class="jumbo-name wow shake">Hi, I'm Zaid</h2>
+        <p class="tagline"><span class="rotate">Software Engineer, Entrepreneur, Machine Learning Engineer, Researcher</span></p>
+      </div>
     </div>
   </header>
 
@@ -69,7 +71,7 @@
 
         <div class="col-sm-9">
           <h3 class="name wow slideInRight">Zaid Nabulsi</h3>
-          <p class="description wow slideInRight">Hi! I am a computer scientist and machine learning engineer! I'm currently a computer science student at Stanford University, interested in aritifical intelligence, machine learning, and computer systems. Please check out my portfolio, and feel free to contact me! I am always open to new opportunities.</p>
+          <p class="description wow slideInRight">Hi! I am a computer scientist and machine learning engineer. I'm currently a computer science student at Stanford University, interested in aritifical intelligence, machine learning, and computer systems. Please check out my portfolio, and feel free to contact me! I am always open to new opportunities.</p>
         </div>
       </div>
     </div>
@@ -116,6 +118,7 @@
         <div class="col2 right">
           <div class="bullet"><span class="emphasis">CS 230 </span>Deep Learning<div class="explainer">A practical course useful for industry, focusing on the details of numerous different types of deep neural networks, their architectures, and their applications</div></div>
           <div class="bullet"><span class="emphasis">CS 231N </span>Convolutional Neural Networks for Visual Recognition<div class="explainer">The details of neural net architecture, with a heavy focus on image classification and convolutional neural networks.</div></div>
+          <div class="bullet"><span class="emphasis">CS 224N </span> Natural Language Processing with Deep Learning<div class="explainer">Deep learning and neural network architecture with a focus on natural language processing.</div></div>
           <div class="bullet"><span class="emphasis">CS 224U </span> Natural Language Understanding<div class="explainer">A project-oriented course focused on the task of teaching machines to understand and make sense of human language.</div></div>
           <div class="bullet"><span class="emphasis">CS 199/Med 199 </span>Undergraduate Research<div class="explainer">Independent research for qualified students to undertake investigations sponsored by faculty. I worked in an artifical intelligence lab in the Stanford Medical School.</div></div>
         </div>
@@ -128,11 +131,13 @@
           <div class="bullet"><span class="emphasis">CS 106 Series </span> Programming Abstractions<div class="explainer">Deep dive into abstraction and software engineering principles ofmodularity. Focus on data structures and algorithms in C++</div></div>
           <div class="bullet"><span class="emphasis">CS 107 </span> Computer Organization &amp; Systems<div class="explainer">Fundamental concepts of computer systems, covering low-level programming, working from C down to the microprocessor.</div></div>
           <div class="bullet"><span class="emphasis">CS 193X </span> Full Stack Applications<div class="explainer">Implementing full-stack web applications, with a focus on both client-side and server-side systems.</div></div>
+          <div class="bullet"><span class="emphasis">CS 140 </span> Operating Systems<div class="explainer">Comprehensive course on developing operating systems. In this course, students develop there own operating system (Pintos)</div></div>
         </div>
         
         <div class="col2 right">
           <div class="bullet"><span class="emphasis">CS 110 </span>Principles of Computer Systems<div class="explainer">Principles and practice of engineering of computer software and hardware systems. Covers techniques for controlling complexity and strong modularity using client-server design. Also covers multiprocessing, multithreading, networking, virutal memory, security and encryption, and MapReduce</div></div>
           <div class="bullet"><span class="emphasis">CS 161 </span>Design and Analysis of Algorithms<div class="explainer">Comprehensive course covering algorithm design techniques, and in-depth coverage of many exisiting and efficient algorithms. Emphasis on worst/average case analysis and recurrences/asymptotics</div></div>
+          <div class="bullet"><span class="emphasis">CS 143 </span>Compilers<div class="explainer">This course covers how compilers work and how they are developed. In this course, students write their own compiler for  an academic programming language called COOL.</div></div>
         </div>
         
         <div class="clear"></div>
@@ -195,12 +200,40 @@
       <div class="experiences">
         <div class="row">
 
-          <div class="experience">
+            <div class="experience">
               <div class="col-sm-4">
                 <h2 class="wow lightSpeedIn">Google Brain</h2>
               </div>
               <div class="col-sm-8">
-                <p><strong>Software Engineering/Machine Learning Intern (Jun-Sept 2018)</strong></p>
+                <p><strong>Software Engineering Intern (Jul-Oct 2019)</strong></p>
+                <p>Worked with the Medical Brain team to develop deep learning models to predict/diagnose abnormalities</p>
+                <p>Developed a deep learning model that diagnoses abnormalities in chest x-rays through NLP and CV</p>
+                <p>Incorporated a pateint's past mammograms in deep learning models to help the models diagnose/predict breast cancer</p>
+                <p>Technologies used: Python, TensorFlow, C++, Go</p>
+
+              </div>
+            </div>   
+
+            <div class="experience">
+              <div class="col-sm-4">
+                <h2 class="wow lightSpeedIn">Facebook</h2>
+              </div>
+              <div class="col-sm-8">
+                <p><strong>Software Engineering Intern (May-Jul 2019)</strong></p>
+                <p>Worked with the Ads Ranking ML team to improve the quality ofthe ads ranking system.</p>
+                <p>Developed a machine learning model validator that ensured that machine learning models used in production met a certain criteria.</p>
+                <p>Turned the validator into a launch blocker, enhancing the quality of models used in the ads ranking ecosystem.</p>
+                <p>Technologies used: Python, Caffe, PyTorch, C++</p>
+
+              </div>
+            </div>    
+
+            <div class="experience">
+              <div class="col-sm-4">
+                <h2 class="wow lightSpeedIn">Google Brain</h2>
+              </div>
+              <div class="col-sm-8">
+                <p><strong>Software Engineering Intern (Jun-Sept 2018)</strong></p>
                 <p>Worked with the Brain team to improve the quality of Tensorflow Extended (TFX), and to prep for the TensorFlow 2.0 release.</p>
                 <p>Developed a  deep learning classifier for YouTube live chats, improving AUC-PR from 0.73 to 0.78.</p>
                 <p>Technologies used: Python, TensorFlow, Go, C++</p>
@@ -210,7 +243,7 @@
               </div>
             </div>
 
-          <div class="experience">
+            <div class="experience">
               <div class="col-sm-4">
                 <h2 class="wow lightSpeedIn">Accountability Counsel</h2>
               </div>
@@ -461,7 +494,7 @@
     document.getElementById("popup").style.display = "none";
 
     function checkWindowSize() {
-      if(document.body.offsetWidth < 600) {
+      if(document.body.offsetWidth < 500) {
         document.getElementById("popuptext").style.fontSize = "15px";
         document.getElementById("popuptext").innerHTML = "View on desktop or increase the screen width to continue.";
         document.getElementById("popup").style.display = "block"; 
