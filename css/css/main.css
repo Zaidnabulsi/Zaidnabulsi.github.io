@@ -1,5 +1,4 @@
-/*****************************/
-/* INSERT YOUR CSS CODE HERE */
+/*****************************/ /* INSERT YOUR CSS CODE HERE */
 /*****************************/
 
 body {
@@ -14,9 +13,20 @@ body {
 	background-image: url("../../lib/img/9.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 900px;
+/*	height: 900px;*/
+	width: 100%;
 	background-color: black;
 	background-size:100% auto;
+	padding-top: 56.25%;
+	position: relative;
+}
+
+.jumbo_text {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0; 
 }
 
 
